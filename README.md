@@ -1,2 +1,3 @@
 # ConfigAndDotFiles
-Container for my dot-files (e.g. .vimrc) or other config files
+Container for dot-files (e.g. .vimrc), other config files
+as well as little shell quirks
