@@ -196,10 +196,6 @@ vnoremap <Down>  <NOP>
 vnoremap <Left>  <NOP>
 vnoremap <Right> <NOP>
 
-" use :wm for :write + :make
-command! WM wall | make
-cnoreabbrev wm WM
-
 function! AddCHeader() "{{{2
   let l:def = "__" . toupper(substitute(expand("%:t"), '\.', "_", "")) . "__"
   let l:header =
