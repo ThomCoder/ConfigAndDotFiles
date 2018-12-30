@@ -95,8 +95,9 @@ Plugin 'ajh17/Spacegray.vim'
 call vundle#end() "required
 filetype plugin indent on
 
-" =====================================
-" setup/definitions/macros
+""""""""""""""""""""""""""""""""
+" Macros and keymaps
+""""""""""""""""""""""""""""""""
 
 " if i have wraped lines i want to go to next/previous visual line
 " not next/previous physical line!
