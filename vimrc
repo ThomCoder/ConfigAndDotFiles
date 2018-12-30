@@ -38,7 +38,6 @@ set splitbelow splitright
 " vundle needs filtype plugins off
 " turn them back on later
 filetype plugin indent off
-syntax off
 
 " =====================================
 " set runtimepath for vundle
@@ -94,8 +93,7 @@ Plugin 'vim-syntastic/syntastic' " TODO: configure
 Plugin 'ajh17/Spacegray.vim'
 
 call vundle#end() "required
-filetype plugin indent on "required
-"finished plugin configuration
+filetype plugin indent on
 
 " =====================================
 " setup/definitions/macros
