@@ -17,10 +17,20 @@
 " done.
 "
 
-set modifiable
+""""""""""""""""""""""""""""""""
+" General Vim switches
+""""""""""""""""""""""""""""""""
+let mapleader =" "
 
-" needed to run vundle
+set modifiable
+filetype plugin on
+syntax on
+set number relativenumber
+" Explicitly enable autocomplete as its off by default
+set wildmode=longest,list,full
 set nocompatible
+set splitbelow splitright
+
 
 " vundle needs filtype plugins off
 " turn them back on later
@@ -97,11 +107,6 @@ noremap gk k
 " use H as page down and L as page up.
 noremap H <PageDown>zz
 noremap L <PageUp>zz
-
-" Linenumbers
-set number
-set relativenumber
-set ruler
 
 " Enable highlighting of the current line
 set cursorline
