@@ -1,4 +1,6 @@
+""""""""""""""""""""""""""""""""
 "Vimrc
+""""""""""""""""""""""""""""""""
 "developed using the following as guideline
 "https://github.com/linluk/my-dot-files/blob/master/vimrc
 "https://github.com/amacgregor/dot-files/blob/master/vimrc
