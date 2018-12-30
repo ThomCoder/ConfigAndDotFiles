@@ -31,6 +31,9 @@ set wildmode=longest,list,full
 set nocompatible
 set splitbelow splitright
 
+""""""""""""""""""""""""""""""""
+" Plugins
+""""""""""""""""""""""""""""""""
 
 " vundle needs filtype plugins off
 " turn them back on later
