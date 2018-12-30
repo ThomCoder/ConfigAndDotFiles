@@ -41,48 +41,41 @@ Plugin 'VundleVim/Vundle.vim'
 " to delete a plugin remove it here and run :PluginClean
 
 " Utility
-Plugin 'scrooloose/nerdtree'
-Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdtree' " TODO: Map key
+Plugin 'majutsushi/tagbar' " Requires ctags installed in path; TODO: Map key
 Plugin 'ervandew/supertab'
-Plugin 'BufOnly.vim'
-Plugin 'wesQ3/vim-windowswap'
+Plugin 'wesQ3/vim-windowswap' " TODO: Map key
 Plugin 'SirVer/ultisnips'
-Plugin 'junegunn/fzf.vim'
-Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim' " Requires fzf
 Plugin 'godlygeek/tabular'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'benmills/vimux'
-Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'gilsondev/searchtasks.vim'
-Plugin 'Shougo/neocomplete.vim'
-Plugin 'tpope/vim-dispatch'
+Plugin 'jeetsukumaran/vim-buffergator' " TODO: Map key
+Plugin 'gilsondev/searchtasks.vim' " TODO: Map key and setup keyword list
+" Plugin 'Shougo/neocomplete.vim'
+" Plugin 'tpope/vim-dispatch'
 Plugin 'jceb/vim-orgmode'
 Plugin 'tpope/vim-speeddating'
-Plugin 'calorie/vim-typing-sound'
 
 " Generic Programming Support 
-Plugin 'honza/vim-snippets'
+" Plugin 'honza/vim-snippets'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'tobyS/vmustache'
-Plugin 'janko-m/vim-test'
-Plugin 'maksimr/vim-jsbeautify'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'neomake/neomake'
+" Plugin 'janko-m/vim-test'
+Plugin 'maksimr/vim-jsbeautify' " Requires js-beautify (from npm); TODO: Map key
+Plugin 'vim-syntastic/syntastic' " TODO: configure
+" Plugin 'neomake/neomake'
 
 " Markdown / Writting
-Plugin 'reedes/vim-pencil'
-Plugin 'tpope/vim-markdown'
-Plugin 'jtratner/vim-flavored-markdown'
-Plugin 'LanguageTool'
+" Plugin 'reedes/vim-pencil'
+" Plugin 'tpope/vim-markdown'
+" Plugin 'jtratner/vim-flavored-markdown'
+" Plugin 'LanguageTool'
 
 " Git Support
-Plugin 'kablamo/vim-git-log'
-Plugin 'gregsexton/gitv'
-Plugin 'tpope/vim-fugitive'
-"Plugin 'jaxbot/github-issues.vim'
+" Plugin 'kablamo/vim-git-log'
+" Plugin 'gregsexton/gitv'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'jaxbot/github-issues.vim'
 
-" Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'ajh17/Spacegray.vim'
 
 call vundle#end() "required
