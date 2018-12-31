@@ -56,11 +56,17 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Utility
 Plugin 'scrooloose/nerdtree' " TODO: Map key
-Plugin 'majutsushi/tagbar' " Requires ctags installed in path; TODO: Map key
+Plugin 'majutsushi/tagbar' " TODO: Map key
+	if executable("ctags") != 1
+		echo "ctags not found in path"
+	endif
 Plugin 'ervandew/supertab'
 Plugin 'wesQ3/vim-windowswap' " TODO: Map key
 Plugin 'SirVer/ultisnips'
-Plugin 'junegunn/fzf.vim' " Requires fzf
+Plugin 'junegunn/fzf.vim'
+	if executable("fzf") != 1
+		echo "fzf not found in path"
+	endif
 Plugin 'godlygeek/tabular'
 Plugin 'jeetsukumaran/vim-buffergator' " TODO: Map key
 Plugin 'gilsondev/searchtasks.vim' " TODO: Map key and setup keyword list
