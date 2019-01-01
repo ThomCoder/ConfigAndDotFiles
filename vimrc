@@ -148,27 +148,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 
-" Markdown Syntax Support
-augroup markdown
-    au!
-    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
-augroup END
-
-" Github Issues Configuration
-let g:github_access_token = "e6fb845bd306a3ca7f086cef82732d1d5d9ac8e0"
-
 " Vim-Supertab Configuration
 let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
-
-" Settings for Writting
-let g:pencil#wrapModeDefault = 'soft'   " default is 'hard'
-
-" Vim-pencil Configuration
-augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-  autocmd FileType text         call pencil#init()
-augroup END
 
 " Vim-UltiSnips Configuration
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
@@ -176,15 +157,6 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical" " If you want :UltiSnipsEdit to split your window.
-
-" Vim-Test Configuration
-let test#strategy = "vimux"
-
-" Neocomplete Settings
-let g:acp_enableAtStartup = 0
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#enable_smart_case = 1
-let g:neocomplete#sources#syntax#min_keyword_length = 3
 
 " force myself to use hjkl!
 inoremap <Up>    <NOP>
