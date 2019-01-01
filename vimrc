@@ -30,6 +30,7 @@ set number relativenumber
 set wildmode=longest,list,full
 set nocompatible
 set splitbelow splitright
+set hlsearch
 
 """"""""""""""""""""""""""""""""
 " Plugins
