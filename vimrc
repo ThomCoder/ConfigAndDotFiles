@@ -132,7 +132,6 @@ endif
 
 let base16colorspace=256  " Access colors present in 256 colorspace
 colorscheme spacegray
-" colorscheme spacemacs-theme
 
 let g:spacegray_underline_search = 1
 let g:spacegray_italicize_comments = 1
