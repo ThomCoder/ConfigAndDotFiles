@@ -81,7 +81,7 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
 " Plugin 'janko-m/vim-test'
 Plugin 'maksimr/vim-jsbeautify' " Requires js-beautify (from npm); TODO: Map key
-Plugin 'vim-syntastic/syntastic' " TODO: configure
+Plugin 'vim-syntastic/syntastic'
 " Plugin 'neomake/neomake'
 
 " Markdown / Writting
