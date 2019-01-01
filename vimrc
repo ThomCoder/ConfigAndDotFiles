@@ -82,6 +82,7 @@ Plugin 'tomtom/tcomment_vim'
 " Plugin 'janko-m/vim-test'
 Plugin 'maksimr/vim-jsbeautify' " Requires js-beautify (from npm); TODO: Map key
 Plugin 'vim-syntastic/syntastic'
+Plugin 'vim-airline/vim-airline'
 " Plugin 'neomake/neomake'
 
 " Markdown / Writting
