@@ -114,10 +114,6 @@ noremap k gk
 noremap gj j
 noremap gk k
 
-" use H as page down and L as page up.
-noremap H <PageDown>zz
-noremap L <PageUp>zz
-
 " Enable highlighting of the current line
 set cursorline
 
