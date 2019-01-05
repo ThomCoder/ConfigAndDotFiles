@@ -170,12 +170,3 @@ vnoremap <Down>  <NOP>
 vnoremap <Left>  <NOP>
 vnoremap <Right> <NOP>
 
-function! AddCHeader() "{{{2
-  let l:def = "__" . toupper(substitute(expand("%:t"), '\.', "_", "")) . "__"
-  let l:header =
-    \ "#ifndef " . l:def . "\n" .
-    \ "#define " . l:def . "\n\n\n" .
-    \ "#endif /* " . l:def . " */"
-  return l:header
-endfunction
-
