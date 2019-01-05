@@ -75,6 +75,7 @@ Plugin 'gilsondev/searchtasks.vim' " TODO: Map key and setup keyword list
 " Plugin 'tpope/vim-dispatch'
 Plugin 'jceb/vim-orgmode'
 Plugin 'tpope/vim-speeddating'
+Plugin 'junegunn/goyo.vim'
 
 " Generic Programming Support 
 " Plugin 'honza/vim-snippets'
@@ -170,3 +171,5 @@ vnoremap <Down>  <NOP>
 vnoremap <Left>  <NOP>
 vnoremap <Right> <NOP>
 
+" Shortcut for Goyo
+map <leader>g :Goyo \| set linebreak<CR>
