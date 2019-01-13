@@ -82,6 +82,7 @@ Plugin 'maksimr/vim-jsbeautify' " Requires js-beautify (from npm); TODO: Map key
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 
+" Colortheme
 Plugin 'ajh17/Spacegray.vim'
 
 call vundle#end() "required
