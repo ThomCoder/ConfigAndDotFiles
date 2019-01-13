@@ -71,33 +71,16 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'jeetsukumaran/vim-buffergator' " TODO: Map key
 Plugin 'gilsondev/searchtasks.vim' " TODO: Map key and setup keyword list
-" Plugin 'Shougo/neocomplete.vim'
-" Plugin 'tpope/vim-dispatch'
 Plugin 'jceb/vim-orgmode'
 Plugin 'tpope/vim-speeddating'
 Plugin 'junegunn/goyo.vim'
 
 " Generic Programming Support 
-" Plugin 'honza/vim-snippets'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
-" Plugin 'janko-m/vim-test'
 Plugin 'maksimr/vim-jsbeautify' " Requires js-beautify (from npm); TODO: Map key
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
-" Plugin 'neomake/neomake'
-
-" Markdown / Writting
-" Plugin 'reedes/vim-pencil'
-" Plugin 'tpope/vim-markdown'
-" Plugin 'jtratner/vim-flavored-markdown'
-" Plugin 'LanguageTool'
-
-" Git Support
-" Plugin 'kablamo/vim-git-log'
-" Plugin 'gregsexton/gitv'
-" Plugin 'tpope/vim-fugitive'
-" Plugin 'jaxbot/github-issues.vim'
 
 Plugin 'ajh17/Spacegray.vim'
 
