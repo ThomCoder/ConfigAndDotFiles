@@ -25,6 +25,9 @@ compinit
 
 export EDITOR='nvim'
 
+# explicitly set 'emacs' shell keybinding
+bindkey -e
+
 # Aliases
 alias e='exit'
 alias cls='printf "\033c"'
