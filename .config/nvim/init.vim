@@ -56,7 +56,7 @@ Plugin 'VundleVim/Vundle.vim'
 " to delete a plugin remove it here and run :PluginClean
 
 " Utility
-Plugin 'scrooloose/nerdtree' " TODO: Map key
+Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar' " TODO: Map key
 	if executable("ctags") != 1
 		echo "ctags not found in path"
@@ -153,3 +153,6 @@ vnoremap <Right> <NOP>
 
 " Shortcut for Goyo
 map <leader>g :Goyo \| set linebreak<CR>
+
+" Shortcut for Nerdtree
+map <leader>n :NERDTreeFind \| set linebreak<CR>
