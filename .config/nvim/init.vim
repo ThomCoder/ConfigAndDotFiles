@@ -74,28 +74,18 @@ Plugin 'majutsushi/tagbar'
 		echo "ctags not found in path"
 	endif
 Plugin 'ervandew/supertab'
-Plugin 'wesQ3/vim-windowswap' " TODO: Map key
-Plugin 'SirVer/ultisnips'
-Plugin 'junegunn/fzf.vim'
-	if executable("fzf") != 1
-		echo "fzf not found in path"
-	endif
 Plugin 'godlygeek/tabular'
-Plugin 'jeetsukumaran/vim-buffergator' " TODO: Map key
-Plugin 'gilsondev/searchtasks.vim' " TODO: Map key and setup keyword list
-Plugin 'jceb/vim-orgmode'
-Plugin 'tpope/vim-speeddating'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'gilsondev/searchtasks.vim'
 Plugin 'junegunn/goyo.vim'
 
 " Generic Programming Support 
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
-Plugin 'maksimr/vim-jsbeautify' " Requires js-beautify (from npm); TODO: Map key
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 
 " Colortheme
-Plugin 'ajh17/Spacegray.vim'
 
 call vundle#end() "required
 filetype plugin indent on
@@ -142,14 +132,7 @@ map <leader>s :SyntasticCheck \| set linebreak<CR>
 map <leader>S :SyntasticToggleMode \| set linebreak<CR>
 
 " Vim-Supertab Configuration
-let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
-
-" Vim-UltiSnips Configuration
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsEditSplit="vertical" " If you want :UltiSnipsEdit to split your window.
+let g:SuperTabDefaultCompletionType = "<c-p>"
 
 " force myself to use hjkl!
 inoremap <Up>    <NOP>
@@ -174,3 +157,6 @@ map <leader>n :NERDTreeFind \| set linebreak<CR>
 " Short cut for Tagbar
 map <leader>t :TagbarOpenAutoClose \| set linebreak<CR>
 
+" SearchTasks shortcut and config
+map <leader>m :SearchTasks . \| set linebreak<CR>
+let g:searchtasks_list=["TODO", "FIXME", "NOTE", "HACK", "BUG"]
