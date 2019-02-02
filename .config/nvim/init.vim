@@ -32,6 +32,18 @@ set nocompatible
 set splitbelow splitright
 set hlsearch
 
+" Shortcuts for split navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+" Copy text to clipboard
+" NOTE: This requires gvim, nvim or vim-X11
+vnoremap <C-c> "+y
+map <C-p> "+P
+
+
 """"""""""""""""""""""""""""""""
 " Plugins
 """"""""""""""""""""""""""""""""
