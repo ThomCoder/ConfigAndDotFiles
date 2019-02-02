@@ -69,7 +69,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Utility
 Plugin 'scrooloose/nerdtree'
-Plugin 'majutsushi/tagbar' " TODO: Map key
+Plugin 'majutsushi/tagbar'
 	if executable("ctags") != 1
 		echo "ctags not found in path"
 	endif
@@ -170,3 +170,7 @@ map <leader>g :Goyo \| set linebreak<CR>
 
 " Shortcut for Nerdtree
 map <leader>n :NERDTreeFind \| set linebreak<CR>
+
+" Short cut for Tagbar
+map <leader>t :TagbarOpenAutoClose \| set linebreak<CR>
+
