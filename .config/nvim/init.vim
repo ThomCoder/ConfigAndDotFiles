@@ -5,18 +5,6 @@
 "https://github.com/linluk/my-dot-files/blob/master/vimrc
 "https://github.com/amacgregor/dot-files/blob/master/vimrc
 
-" how to install vim plugins:
-"   mkdir ~/.vim/tmp
-"   mkdir ~/.vim/tmp/backup
-"   mkdir ~/.vim/tmp/undo
-"   mkdir ~/.vim/tmp/swap
-"   mkdir ~/.vim/bundle
-"   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-"   vim
-"   :PluginInstall
-" done.
-"
-
 """"""""""""""""""""""""""""""""
 " General Vim switches
 """"""""""""""""""""""""""""""""
@@ -47,48 +35,28 @@ map <C-p> "+P
 """"""""""""""""""""""""""""""""
 " Plugins
 """"""""""""""""""""""""""""""""
-
-" vundle needs filtype plugins off
-" turn them back on later
-filetype plugin indent off
-
-" =====================================
-" set runtimepath for vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-
-" start vundle environment
-" the default is ~/.vim/bundle
-call vundle#begin()
-
-" let Vundle manage Vundle (this is required)
-Plugin 'VundleVim/Vundle.vim'
-
-" to install a plugin add it here and run :PluginInstall.
-" to update the plugins run :PluginInstall! or :PluginUpdate
-" to delete a plugin remove it here and run :PluginClean
+call plug#begin('.local/share/nvim/site/autoload/plug.vim')
 
 " Utility
-Plugin 'scrooloose/nerdtree'
-Plugin 'majutsushi/tagbar'
+Plug 'scrooloose/nerdtree'
+Plug 'majutsushi/tagbar'
 	if executable("ctags") != 1
 		echo "ctags not found in path"
 	endif
-Plugin 'ervandew/supertab'
-Plugin 'godlygeek/tabular'
-Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'gilsondev/searchtasks.vim'
-Plugin 'junegunn/goyo.vim'
+Plug 'ervandew/supertab'
+Plug 'godlygeek/tabular'
+Plug 'jeetsukumaran/vim-buffergator'
+Plug 'gilsondev/searchtasks.vim'
+Plug 'junegunn/goyo.vim'
 
 " Generic Programming Support 
-Plugin 'Townk/vim-autoclose'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'vim-airline/vim-airline'
+Plug 'Townk/vim-autoclose'
+Plug 'tomtom/tcomment_vim'
+Plug 'vim-syntastic/syntastic'
+Plug 'vim-airline/vim-airline'
 
 " Colortheme
-
-call vundle#end() "required
-filetype plugin indent on
+call plug#end()
 
 """"""""""""""""""""""""""""""""
 " Macros and keymaps
