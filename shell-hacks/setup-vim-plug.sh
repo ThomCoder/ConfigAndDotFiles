@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# This script sets up the necessary folders for
-# the Vundle vim plugin manager.
+# This script sets up the
+# the Vim-Plug plugin manager.
 # For more information see:
 #	https://github.com/VundleVim/Vundle.vim
 
