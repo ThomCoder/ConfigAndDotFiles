@@ -19,6 +19,7 @@ set wildmode=longest,list,full
 set nocompatible
 set splitbelow splitright
 set hlsearch
+set scrolloff=10
 
 " Shortcuts for split navigation
 map <C-h> <C-w>h
