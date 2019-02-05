@@ -123,6 +123,7 @@ map <leader>g :Goyo \| set linebreak<CR>
 
 " Shortcut for Nerdtree
 map <leader>n :NERDTreeFind \| set linebreak<CR>
+map <leader>N :NERDTreeClose \| set linebreak<CR>
 
 " Short cut for Tagbar
 map <leader>t :TagbarOpenAutoClose \| set linebreak<CR>
