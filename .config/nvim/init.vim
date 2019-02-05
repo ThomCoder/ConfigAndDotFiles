@@ -40,6 +40,7 @@ call plug#begin('.local/share/nvim/site/autoload/plug.vim')
 
 " Utility
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 	if executable("ctags") != 1
 		echo "ctags not found in path"
