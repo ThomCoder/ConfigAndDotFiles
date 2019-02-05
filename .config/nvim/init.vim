@@ -47,7 +47,7 @@ Plug 'majutsushi/tagbar'
 	endif
 Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
-Plug 'jeetsukumaran/vim-buffergator'
+" Plug 'jeetsukumaran/vim-buffergator'
 Plug 'gilsondev/searchtasks.vim'
 Plug 'junegunn/goyo.vim'
 
