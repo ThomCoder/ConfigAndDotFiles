@@ -50,6 +50,7 @@ Plug 'godlygeek/tabular'
 " Plug 'jeetsukumaran/vim-buffergator'
 Plug 'gilsondev/searchtasks.vim'
 Plug 'junegunn/goyo.vim'
+Plug 'vimwiki/vimwiki'
 
 " Generic Programming Support 
 Plug 'Townk/vim-autoclose'
