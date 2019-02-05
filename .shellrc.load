@@ -32,4 +32,5 @@ bindkey -e
 alias e='exit'
 alias cls='printf "\033c"'
 alias nv='nvim'
+alias :q='exit'
 
