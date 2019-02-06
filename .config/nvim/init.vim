@@ -52,7 +52,7 @@ Plug 'gilsondev/searchtasks.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'vimwiki/vimwiki'
 
-" Generic Programming Support 
+" Generic Programming Support
 Plug 'Townk/vim-autoclose'
 Plug 'tomtom/tcomment_vim'
 Plug 'vim-syntastic/syntastic'
@@ -78,7 +78,7 @@ set cursorline
 " Always display the status line
 set laststatus=2
 
-" Theme and Styling 
+" Theme and Styling
 set t_Co=256
 set background=dark
 
@@ -90,7 +90,7 @@ let base16colorspace=256  " Access colors present in 256 colorspace
 
 " Vim-Airline Configuration
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1 
+let g:airline_powerline_fonts = 1
 
 " Syntastic Configuration
 set statusline+=%#warningmsg#
