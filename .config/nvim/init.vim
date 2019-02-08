@@ -147,7 +147,7 @@ let g:searchtasks_list=["TODO", "FIXME", "NOTE", "HACK", "BUG"]
 " The switch of the Source Explorer
 nmap <F8> :SrcExplToggle<CR>
 " Set the height of Source Explorer window
-let g:SrcExpl_winHeight = 8
+let g:SrcExpl_winHeight = 20
 " Set 100 ms for refreshing the Source Explorer
 let g:SrcExpl_refreshTime = 100
 " Set "Enter" key to jump into the exact definition context
