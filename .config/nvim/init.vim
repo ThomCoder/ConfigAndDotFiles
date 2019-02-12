@@ -36,7 +36,7 @@ map <C-p> "+P
 """"""""""""""""""""""""""""""""
 " Plugins
 """"""""""""""""""""""""""""""""
-call plug#begin('.local/share/nvim/site/autoload/plug.vim')
+call plug#begin('~/.local/share/nvim/plugged/')
 
 " Utility
 Plug 'scrooloose/nerdtree'
