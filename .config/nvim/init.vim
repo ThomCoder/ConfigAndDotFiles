@@ -60,6 +60,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'wesleyche/SrcExpl'
 
 " Colortheme
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 """"""""""""""""""""""""""""""""
@@ -86,6 +87,9 @@ set background=dark
 if (has("termguicolors"))
   set termguicolors
 endif
+
+let g:gruvbox_italic  = 1
+colorscheme gruvbox
 
 let base16colorspace=256  " Access colors present in 256 colorspace
 
