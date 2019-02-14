@@ -141,7 +141,7 @@ map <leader>n :NERDTreeFind \| set linebreak<CR>
 map <leader>N :NERDTreeClose \| set linebreak<CR>
 
 " Short cut for Tagbar
-map <leader>t :TagbarOpenAutoClose \| set linebreak<CR>
+nmap <leader>t :TagbarOpenAutoClose <CR>
 
 " SearchTasks shortcut and config
 map <leader>m :SearchTasks . \| set linebreak<CR>
