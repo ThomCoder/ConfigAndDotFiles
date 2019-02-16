@@ -34,3 +34,8 @@ alias cls='printf "\033c"'
 alias nv='nvim'
 alias :q='exit'
 
+# Setup autocomplete
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
+zstyle ':completion::complete:*' gain-privileges 1
