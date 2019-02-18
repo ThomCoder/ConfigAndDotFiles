@@ -21,6 +21,9 @@ set splitbelow splitright
 set hlsearch
 set scrolloff=10
 
+set colorcolumn=110
+highlight ColorColumn ctermbg=darkgray
+
 " Shortcuts for split navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
