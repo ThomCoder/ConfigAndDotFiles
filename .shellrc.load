@@ -33,6 +33,7 @@ alias e='exit'
 alias cls='printf "\033c"'
 alias nv='nvim'
 alias :q='exit'
+alias ct='ctags --sort=foldcase -R .'
 
 # Setup autocomplete
 autoload -Uz compinit
