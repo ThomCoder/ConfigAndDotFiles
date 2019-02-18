@@ -20,6 +20,7 @@ set nocompatible
 set splitbelow splitright
 set hlsearch
 set scrolloff=10
+set autoread
 
 set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
