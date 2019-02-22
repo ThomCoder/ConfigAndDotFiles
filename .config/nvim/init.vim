@@ -119,9 +119,6 @@ let g:syntastic_check_on_open = 0
 map <leader>s :SyntasticCheck \| set linebreak<CR>
 map <leader>S :SyntasticToggleMode \| set linebreak<CR>
 
-" Vim-Supertab Configuration
-let g:SuperTabDefaultCompletionType = "<c-p>"
-
 " force myself to use hjkl!
 inoremap <Up>    <NOP>
 inoremap <Down>  <NOP>
