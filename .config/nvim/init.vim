@@ -147,3 +147,6 @@ nmap <leader>t :TagbarOpenAutoClose <CR>
 map <leader>m :SearchTasks . \| set linebreak<CR>
 let g:searchtasks_list=["TODO", "FIXME", "NOTE", "HACK", "BUG"]
 
+" Config and shortcuts for YCM
+let g:ycm_global_ycm_extra_conf = '~/.config/nvim/.ycm_extra_conf.py'
+
